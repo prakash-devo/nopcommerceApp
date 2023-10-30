@@ -12,8 +12,6 @@ class Test_001_login:
     password = ReadConfig.getpassword()
 
     logger = LogGen.loggen()
-
-
     @pytest.mark.regression
     def test_homepageTitle(self, setup):
         self.logger.info("**********Test_001_login***************")
